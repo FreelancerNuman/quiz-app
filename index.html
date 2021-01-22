@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- main css  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="quiz" class="quiz-container">
+      <div class="quiz-header">
+        <h2 id="question">Questions</h2>
+        <ul>
+          <li>
+            <input id="a" type="radio" class="answer" name="answer" />
+            <label id="a_text" for="a">Question</label>
+          </li>
+          <li>
+            <input id="b" type="radio" class="answer" name="answer" />
+            <label id="b_text" for="b">Question</label>
+          </li>
+          <li>
+            <input id="c" type="radio" class="answer" name="answer" />
+            <label id="c_text" for="c">Question</label>
+          </li>
+          <li>
+            <input id="d" type="radio" class="answer" name="answer" />
+            <label id="d_text" for="d">Question</label>
+          </li>
+        </ul>
+      </div>
+      <button id="submitBtn" class="quiz-btn">Submit</button>
+    </div>
+    <!-- script  -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
